@@ -1,0 +1,437 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+}
+
+html{
+    font-size: 62.5%;
+    /*background-color: black;*/ /*Aquí se integra el fondo de la pagina web*/
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    background-color: white;
+}
+
+img {
+    pointer-events: none;
+  }
+
+header nav{
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: black;
+}
+
+header nav div .categorias-header{
+    
+    width: auto;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .categorias-header a{
+    width: auto;
+    height: auto;
+    margin: 0 1rem 0 1rem;
+    color: whitesmoke;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.logo-header{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-header img{
+    width: 20rem;
+}
+
+.contacto-header{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-header img{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+}
+
+.contacto-header a{
+    color: black;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.dropdown {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;   
+}
+
+.dropdown-menu{
+    border-radius: 3rem;
+    width: auto;
+    background-color: #000000;
+}
+
+.dropdown-item{
+    color: #000000;
+}
+
+main .logo-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 0 5rem 0;
+}
+
+main .logo-titulo img{
+    width: 5%;
+}
+
+main .logo-titulo h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    font-style: oblique;
+}
+
+main .logo-titulo p {
+    width: 70%;
+    text-align: center;
+    color: grey;
+    
+}
+
+.cuadro-categorias{
+    display: flex;
+    justify-content: center;
+}
+
+.cuadro-categorias a{
+    display: flex;
+    height: 14.5rem;
+}
+
+.mini-banner-categorias{
+    border: 2px whitesmoke solid;
+    border-radius: 1rem;
+    margin: 1rem;
+    width: 30rem;
+    height: 15rem;
+}
+
+.mini-banner-bombilleria-led{
+    background-image: url(./img/banner/Bombilleria-Led.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.mini-banner-exploradoras-led{
+    background-image: url(./img/banner/Exploradoras-Led.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.mini-banner-cornetas-camion{
+    background-image: url(./img/banner/Cornetas-Camion.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.mini-banner-sobretapas-pernos{
+    background-image: url(./img/banner/Sobretapas-Pernos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.mini-banner-accesorios-camion{
+    background-image: url(./img/banner/Accesorios-Camion.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.mini-banner-luces-navegacion{
+    background-image: url(./img/banner/Luces-Navegacion.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.mini-banner-guarda-polvos{
+    background-image: url(./img/banner/Guarda-Polvos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.mini-banner-tapetes-camion{
+    background-image: url(./img/banner/Tapetes-Camion.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.mini-banner-plumillas{
+    background-image: url(./img/banner/Plumillas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.mini-banner-espejos-camion{
+    background-image: url(./img/banner/Espejos-Camion.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.mini-banner-modulos-led{
+    background-image: url(./img/banner/Modulos-Led.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.mini-banner-farolas{
+    background-image: url(./img/banner/Farolas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.cuadro-productos{
+    display: flex;
+    justify-content: center;
+}
+
+.productos-passion-for-trucks{
+    border: 0.1px rgb(235, 235, 235) solid;
+    border-radius: 1rem;
+    margin: 1rem;
+    width: 20rem;
+    height: 30rem;
+}
+
+.productos-passion-for-trucks img{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 18.5rem;
+    height: 21.5rem;
+}
+
+.productos-passion-for-trucks h3{
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 2rem;
+}
+
+.cuadro-productos a{
+    color: white;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px whitesmoke solid;
+    border-radius: 3rem;
+    background-color: rgb(255, 42, 0);
+    height: 3.5rem;
+    margin-top: 1rem;
+}
+
+.mini-banner-publicidad{
+    display: flex;
+    justify-content: center;
+    margin: 7rem 0 7rem 0;
+}
+
+.banner-publicidad{
+    border-radius: 0.25rem;
+    margin: 1rem;
+    width: 42rem;
+    height: 21rem;
+}
+
+.banner-publicidad-uno{
+    background-image: url(./img/banner/Banner-publicidad-uno.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-publicidad-dos{
+    background-image: url(./img/banner/Banner-publicidad-dos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-publicidad-tres{
+    background-image: url(./img/banner/Banner-publicidad-tres.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.mini-banner-blog{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.banner-blog{
+    margin: 1rem;
+    width: 40rem;
+    height: 40rem;
+}
+
+.imagen-blog img{
+    background-image: url(./img/banner/Banner-publicidad-dos.png);
+    width: 100%;
+}
+
+section div .img-fluid a{
+    width: 100%;
+}
+
+.mini-banner-testimonial{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.banner-testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-radius: 1rem;
+    width: 35rem;
+    height: 35rem;
+    margin: 0 0 5rem 0;
+}
+
+.img-cliente img{
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.banner-testimonial p{
+    border-radius: 0.5rem;
+    background-color: #8f0000;
+    color: whitesmoke;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-testimonial h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.img-calificacion img{
+    width: 15rem;
+}
+
+footer section .redes-sociales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+}
+
+footer section .redes-sociales a {
+    margin: 0 1rem 0 1rem;
+    border-radius: 50%;
+}
+
+footer section .redes-sociales-facebook{
+    background-image: url(./img/socialmedia/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 4rem;
+    height: 4rem;
+}
+
+footer section .redes-sociales-instagram{
+    background-image: url(./img/socialmedia/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 4rem;
+    height: 4rem;
+}
+
+footer section .redes-sociales-whatsapp{
+    background-image: url(./img/socialmedia/whatsapp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 4rem;
+    height: 4rem;
+}
+
+footer section .redes-sociales-youtube{
+    background-image: url(./img/socialmedia/youtube.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 4rem;
+    height: 4rem;
+}
+
+footer section .redes-sociales-tiktok{
+    background-image: url(./img/socialmedia/tiktok.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 4rem;
+    height: 4rem;
+}
